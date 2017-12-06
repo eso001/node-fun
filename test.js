@@ -14,5 +14,3 @@ fs.readFile('movie.txt', 'utf8', function(err,data){
   })
 
 })
-
-
