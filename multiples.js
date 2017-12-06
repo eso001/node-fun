@@ -13,4 +13,17 @@ for(var i = 1; i < numbersDivisibleBy6 + 1; i++) {
 const sum = nums.reduce((accumulator, num)=>{
   return accumulator + num
 }, 0)
-console.log('sum', sum)
+console.log('sum for 6', sum)
+
+var numbersDivisibleByY = Math.floor(x/y)
+
+var numsY = []
+for(var j = 1; j < numbersDivisibleByY + 1; j++) {
+  nums.push(j*y)
+}
+
+const sumY = nums.reduce((accumulator, num)=>{
+  return accumulator + num
+}, 0)
+
+console.log('sum for Y', sumY)
