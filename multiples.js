@@ -1,5 +1,5 @@
-var x = parseFloat(process.argv[2])
-var y = parseFloat(process.argv[3])
+var x = parseFloat(process.argv[2] || 1)
+var y = parseFloat(process.argv[3] || 1)
 
 //count how many numbers are less than input and also divisible by 6
 
