@@ -67,8 +67,7 @@ inquirer.prompt([
   }
 
 
-  // If the user doesn't guess the password...
-  else {
+``  else {
 
     console.log("==============================================");
     console.log("");
